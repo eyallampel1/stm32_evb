@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6657db5f-e034-448d-bae3-f44b9f033a3a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 194.31 39.37)
+		(size 39.37 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "11458ec3-e8ed-4a92-914f-257f2d6c1b04")
+		(property "Sheetname" "sensors"
+			(at 194.31 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 194.31 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32"
+				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.705 36.83)
+		(size 34.925 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f1f01ea-fc88-494c-8e17-b18350ce0e3a")
+		(property "Sheetname" "USB"
+			(at 52.705 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_power.kicad_sch"
+			(at 52.705 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32"
+				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.015 43.815)
+		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c3def2f-5472-4ea2-874f-344fbccc06d4")
+		(property "Sheetname" "stm32_page"
+			(at 120.015 43.1034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32_page.kicad_sch"
+			(at 120.015 64.7196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32"
+				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
