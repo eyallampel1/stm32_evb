@@ -6181,6 +6181,12 @@
 		(uuid "b6341414-4c93-4967-bdb1-d2392e40378c")
 	)
 	(junction
+		(at 350.52 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc1b53f7-1847-41a9-8437-86a8591d4a70")
+	)
+	(junction
 		(at 66.04 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6223,20 +6229,72 @@
 		(uuid "ffa2b3f8-27bf-48eb-8e86-b2a5c024898f")
 	)
 	(no_connect
+		(at 342.9 196.85)
+		(uuid "026a6cb9-0f62-447a-9620-c728c8454196")
+	)
+	(no_connect
+		(at 365.76 204.47)
+		(uuid "0d6c660a-9245-4c09-9eb3-2147c3bbd43e")
+	)
+	(no_connect
+		(at 105.41 227.33)
+		(uuid "1c608766-9187-48a2-9179-0b5aeb043168")
+	)
+	(no_connect
+		(at 365.76 243.84)
+		(uuid "1d39e6fd-ddbe-4113-bccc-d3f7d06cfd00")
+	)
+	(no_connect
 		(at 174.625 113.03)
 		(uuid "1e5efb7e-977c-468d-832d-e0ff23caf651")
+	)
+	(no_connect
+		(at 82.55 237.49)
+		(uuid "25fae92d-6b9c-4d8f-bcfc-8d2503874fac")
+	)
+	(no_connect
+		(at 105.41 232.41)
+		(uuid "27713adb-66e5-4113-b3a8-994b715e097c")
 	)
 	(no_connect
 		(at 50.8 123.19)
 		(uuid "295922c6-8d57-4fe7-b950-a7bb71086aee")
 	)
 	(no_connect
+		(at 105.41 240.03)
+		(uuid "37e57404-8956-413e-8cd7-d0a301f12767")
+	)
+	(no_connect
 		(at 200.66 54.61)
 		(uuid "56d7e0a3-771b-4335-b6ff-b25ed0dc6fc5")
 	)
 	(no_connect
+		(at 347.98 243.84)
+		(uuid "5b507fcb-bc85-49a7-9191-c0b3916bc73b")
+	)
+	(no_connect
 		(at 50.8 107.95)
 		(uuid "5ce5255d-cd3d-4bc8-ac00-5dece9f87524")
+	)
+	(no_connect
+		(at 105.41 224.79)
+		(uuid "62c69ddc-6250-4823-80a6-b22e694e8274")
+	)
+	(no_connect
+		(at 82.55 240.03)
+		(uuid "77d3e2d8-fd48-4dde-9da7-da6260800921")
+	)
+	(no_connect
+		(at 105.41 237.49)
+		(uuid "96e6663a-4b8d-4c18-87e2-05e8986dbd57")
+	)
+	(no_connect
+		(at 105.41 229.87)
+		(uuid "aa1b8f7e-808a-4b65-bf4e-e224440515cd")
+	)
+	(no_connect
+		(at 105.41 234.95)
+		(uuid "bd98ad33-cbcc-474a-94c0-1fa5626f275a")
 	)
 	(no_connect
 		(at 213.36 54.61)
@@ -6965,6 +7023,16 @@
 			(type default)
 		)
 		(uuid "4a15e4b3-b9ab-4270-89d5-fe343ad290e5")
+	)
+	(wire
+		(pts
+			(xy 350.52 153.67) (xy 350.52 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c038174-aabb-446c-a8d5-581534fda3d8")
 	)
 	(wire
 		(pts
@@ -8318,7 +8386,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 144.78) (xy 350.52 159.385)
+			(xy 350.52 144.78) (xy 350.52 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9245,7 +9313,25 @@
 			"AAAAABBEyBnsAQAAUN/IGewBAAAAnDEAnJgMAAEAAAAAAAAAUN/IGewBAABgh50x7AEAAOzrDgDU"
 			"+wwAAQAAAAAAAABgh50x7AEAAHDCnTHsAQAA7OsOANT7DAABAAAAAAAAAHDCnTHsAQAAcMKdMewB"
 			"AACIHQ8A1PsMAAEAAAAAAAAAcMKdMewBAAAQlbxa7AEAAIgdDwDU+wwABAAAAAAAAADACWsT7AEA"
-			"ALCRyA=="
+			"ALCRyABhdDIgoJNOkOwBAAABAAAAAAAAAIjNn9TrAQAA+P////////8QNeCO7AEAAOMAAAAgICAg"
+			"yLKaHewBAAABAAAAAAAAAOjQn9TrAQAAUAes0+sBAAABAAAAAAAAAIjcn9TrAQAAKItN1OsBAAAB"
+			"AAAAAAAAAAjen9TrAQAA+P/////////wLeCO7AEAABsBAADrAQAA+P////////8wPOCO7AEAAHQA"
+			"AADrAQAA+P////////8QIOCO7AEAAGgCAADrAQAA+P////////+wMeCO7AEAAPgBAABzIGZv+P//"
+			"///////QHeCO7AEAAFMCAAAgIHdl+P/////////wIeCO7AEAABoBAABnKFNNoMlFTOwBAAABAAAA"
+			"AAAAADjbn9TrAQAA4INMjOwBAAABAAAAAAAAAAjen9TrAQAA+P/////////QFOCO7AEAADkAAADr"
+			"AQAA+P////////9QPeCO7AEAAFwCAADrAQAA+P////////8wKuCO7AEAAJcBAADrAQAAoFIHoewB"
+			"AAABAAAAAAAAADjPn9TrAQAA0JxOkOwBAAABAAAAAAAAAEjgn9TrAQAAuL2aHewBAAABAAAAAAAA"
+			"ANjRn9TrAQAAOGuQu+wBAAABAAAAAAAAAMjYn9TrAQAAMAis0+sBAAABAAAAAAAAAMjYn9TrAQAA"
+			"0LVLjOwBAAABAAAAAAAAAIjcn9TrAQAAIPfDoOwBAAABAAAAAAAAAIjWn9TrAQAAyGuQu+wBAAAB"
+			"AAAAAAAAABjXn9TrAQAAoEJFTOwBAAABAAAAAAAAAIjZn9TrAQAA+P/////////4/////////xEB"
+			"AAAgaW50AJS/E+wBAAABAAAAAAAAADjbn9TrAQAAoAis0+sBAAABAAAAAAAAAMjPn9TrAQAAyIRN"
+			"1OsBAAABAAAAAAAAAAjen9TrAQAA+P////////8QHeCO7AEAAB8CAAAgKiBjIMdFTOwBAAABAAAA"
+			"AAAAABjan9TrAQAAIAGt0+sBAAABAAAAAAAAADjSn9TrAQAAYAlMjOwBAAABAAAAAAAAAHjdn9Tr"
+			"AQAAyBHfjuwBAAABAAAAAAAAAEjOn9TrAQAAwBF/G+wBAAABAAAAAAAAADjSn9TrAQAAyJXfjuwB"
+			"AAABAAAAAAAAALjTn9TrAQAAGGqQu+wBAAABAAAAAAAAAIjWn9TrAQAAEAms0+sBAAABAAAAAAAA"
+			"AKjan9TrAQAA0AlMjOwBAAABAAAAAAAAAHjdn9TrAQAAiIVN1OsBAAABAAAAAAAAAAjen9TrAQAA"
+			"QJ1OkOwBAAABAAAAAAAAAEjgn9TrAQAAKLyaHewBAAABAAAAAAAAANjXn9TrAQAA6IVN1OsBAAAB"
+			"AAAAAA=="
 		)
 	)
 	(image
@@ -15190,7 +15276,25 @@
 			"IQQCAAoAAAAAQQAgIRIgEANBACEhAiEQA1sAZSEDYiAgWwBkIQNhICFyAAKAUA0EAAUABR0FAAUA"
 			"IgADEQDAAADIAAAAeAAAAHAAQwCgigEABQZGWgAAAABwAIMAoIoBAAUGRjoAAAAAYQAAogAAgT9i"
 			"AUMBoIoFCAQAAAoAAAAAYQCDAaBKBQgAAAAAAACAv0EBICEBAwEIWwdkIQNkICAkAAMAAMAAAGAA"
-			"AABgAAAAcAAAsAEHAABwAEMAoIoBAAUHRjoAAAAAYQAAogAAgT9iAQ=="
+			"AABgAAAAcAAAsAEHAABwAEMAoIoBAAUHRjoAAAAAYQAAogAAgT9iAUG67AEAANBHQbrsAQAAWQEA"
+			"WIY/WwBQwAS67AEAAODLn9TrAQAAJL52QRAlQsFbmU4+j912Qf0jQsF7zE4+AAAAAAAAAAAAAAAA"
+			"AAAAAAAAAADRwQEAAgAAAOwBAACN5OCjAAwIgCS+dkGHJkLB16pNPia+dkFUIULBl/9OPpBMQbrs"
+			"AQAA0EtBuuwBAAABAAAAAAAAAAAAAADsAQAAkeTsowANCIAkvnZBhyZCwdeqTT4mvnZBVCFCwZf/"
+			"Tj4AAAAAAAAAAAAAAAAAAAAAAAAAANnBAQABAAAA7AEAAJXk6KMADgiAnQd3QasiQsGxZk0+OAl3"
+			"QVQhQsHFiE0+AAAAAAAAAAAAAAAAAAAAAAAAAADcwQEAAQAAAOwBAACZ5PSjAA8IgNb6dkGrIkLB"
+			"sWZNPjgJd0FUIULBs0xOPtBNQbrsAQAA0E5BuuwBAAACAAAAAAAAAAAAAADsAQAAneTwowAQCIAk"
+			"vnZBhyZCwdeqTT4mvnZBVCFCwZf/Tj4QS0G67AEAABBOQbrsAQAAAgAAAAAAAAAAAAAAAAAAAOHk"
+			"/KNQEQiAcPp2QdwlQsFbzUw+OAl3QVQhQsGzTE4+kE5BuuwBAABQS0G67AEAAAAAAAAAAAAAAAAA"
+			"AOwBAADl5PijABIIgCS+dkFlJkLBiwhOPia+dkGpIkLBje5OPgAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"2MEBAAEAAAAAAAAA6eTEo1ETCIAkvnZBZSZCwYsITj4mvnZB/SNCwXvMTj6QSEG67AEAABBPQbrs"
+			"AQAAAQAAAAAAAAAAAAAAAAAAAO3kwKNYFAiAy+t2QYcmQsFbzUw+OAl3QVQhQsHHbk4+UFQ/uuwB"
+			"AAAQTEG67AEAAAAAAAAAAAAAAAAAAAAAAADx5MyjTRUIgCS+dkH/I0LBecxOPo/ddkGpIkLBje5O"
+			"PgAAAAAAAAAAAAAAAAAAAAAAAAAAz8EBAAIAAADsAQAA9eTIowAWCICN3XZBECVCwcVuTj4S7HZB"
+			"/SNCwXvMTj4AAAAAAAAAAAAAAAAAAAAAAAAAAMrBAQABAAAAAAAAAPnk1KNjFwiAtPp2Qf8jQsGf"
+			"RE0+OAl3QVQhQsGzTE4+EEhBuuwBAACQS0G67AEAAAEAAAAAAAAAAAAAAAAAAAD95NCjZBgIgNb6"
+			"dkGrIkLBsWZNPjgJd0FUIULBL0ROPgAAAAAAAAAAAAAAAAAAAAAAAAAA3sEBAAEAAADsAQAAweTc"
+			"owAZCIAkvnZBZSZCwYsITj4mvnZBVCFCwZf/Tj5QTEG67AEAAFBOQbrsAQAAAQAAAAAAAAAAAAAA"
+			"AAAAAMXk2KNVGgiAJL52QWUmQsGLCE4+Jr52QVQhQsGX/04+AAAAAA=="
 		)
 	)
 	(label "USB_D-"
@@ -18680,6 +18784,73 @@
 			(project ""
 				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a/6f1f01ea-fc88-494c-8e17-b18350ce0e3a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 350.52 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b2f87e5-5e52-42cd-90f1-d851e4293739")
+		(property "Reference" "#FLG03"
+			(at 352.425 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 354.33 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 350.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d8e0562-f6a0-4583-911e-9c5165c578fd")
+		)
+		(instances
+			(project ""
+				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a/6f1f01ea-fc88-494c-8e17-b18350ce0e3a"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
