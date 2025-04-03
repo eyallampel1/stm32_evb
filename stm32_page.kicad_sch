@@ -4143,16 +4143,6 @@
 		)
 		(uuid "5a154bb0-b201-4497-937b-187c3b2a04b8")
 	)
-	(text "VBAT"
-		(exclude_from_sim no)
-		(at 67.564 24.638 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "92331a3f-3341-427f-92d9-cacd28600107")
-	)
 	(text "VDDA"
 		(exclude_from_sim no)
 		(at 50.8 24.638 0)
