@@ -2724,10 +2724,6 @@
 		(uuid "9c92096b-dd50-4a4e-9ef6-89a98b582ed6")
 	)
 	(no_connect
-		(at 73.66 107.95)
-		(uuid "a0c500c3-cd64-4ef8-a35b-71f40100bd3e")
-	)
-	(no_connect
 		(at 95.25 193.04)
 		(uuid "c559aa7f-ee12-4f4d-8a3b-4fad40866539")
 	)
@@ -3733,6 +3729,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 107.95) (xy 73.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7cf7c6-2e7b-424a-83fc-4de1c28468f4")
+	)
+	(wire
+		(pts
 			(xy 237.49 46.99) (xy 237.49 49.53)
 		)
 		(stroke
@@ -3865,6 +3871,17 @@
 			(justify left)
 		)
 		(uuid "7a5db516-59f3-40d2-bbcd-63ef99ba74f6")
+	)
+	(hierarchical_label "IMU_INT"
+		(shape output)
+		(at 67.31 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ef2c4ca-886a-41f6-9cef-630df6c2fbc4")
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
