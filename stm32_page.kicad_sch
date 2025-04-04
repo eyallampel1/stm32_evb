@@ -5,113 +5,6 @@
 	(uuid "b5941a97-54d8-493b-9b3e-612c36d1b33a")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SAMC21_breakout-rescue:+3V3-power"
 			(power)
 			(pin_names
@@ -4223,12 +4116,6 @@
 		(uuid "55bdf2d7-00b1-43a5-8a55-31c3226482d6")
 	)
 	(junction
-		(at 162.56 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "607f8fa0-fcaa-40b8-a4bd-d70225b7457c")
-	)
-	(junction
 		(at 26.67 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4305,12 +4192,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7ead672-5b11-46c4-ab47-13942b0615f3")
-	)
-	(junction
-		(at 165.1 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5e1aeb1-f487-4913-9619-57039696b633")
 	)
 	(junction
 		(at 59.69 26.67)
@@ -4754,16 +4635,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 63.5) (xy 165.1 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "392f5fec-3cff-4075-a699-1bbbebb253af")
-	)
-	(wire
-		(pts
 			(xy 45.72 246.38) (xy 45.72 242.57)
 		)
 		(stroke
@@ -4861,16 +4732,6 @@
 			(type default)
 		)
 		(uuid "48e34804-5f1c-4da8-86cb-417b582bc988")
-	)
-	(wire
-		(pts
-			(xy 152.4 66.04) (xy 162.56 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bfb6fd8-b381-4e80-ae2b-7ac335cadc20")
 	)
 	(wire
 		(pts
@@ -5124,16 +4985,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 162.56 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63932da3-7ae8-485c-9401-a4f147393cec")
-	)
-	(wire
-		(pts
 			(xy 304.8 203.2) (xy 300.99 203.2)
 		)
 		(stroke
@@ -5141,16 +4992,6 @@
 			(type default)
 		)
 		(uuid "63e1fbaa-4bc7-456d-8bf5-8b33138825fd")
-	)
-	(wire
-		(pts
-			(xy 165.1 63.5) (xy 181.61 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "652369a6-3edc-4f25-9912-d5940d0ee8e3")
 	)
 	(wire
 		(pts
@@ -5171,16 +5012,6 @@
 			(type default)
 		)
 		(uuid "6c2f1830-4230-481d-a4d8-10a9ce34d1a9")
-	)
-	(wire
-		(pts
-			(xy 152.4 57.15) (xy 162.56 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c306a81-0a17-4050-bc31-5c0cb38d5d6f")
 	)
 	(wire
 		(pts
@@ -5414,16 +5245,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 165.1 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82b97daa-650c-438b-8396-791d81d6566d")
-	)
-	(wire
-		(pts
 			(xy 26.67 92.71) (xy 26.67 95.25)
 		)
 		(stroke
@@ -5634,7 +5455,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 165.1 63.5)
+			(xy 152.4 63.5) (xy 181.61 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5711,16 +5532,6 @@
 			(type default)
 		)
 		(uuid "abe95062-6366-4503-91bb-265dd8fd6cc3")
-	)
-	(wire
-		(pts
-			(xy 134.62 54.61) (xy 142.24 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad7bbc6a-313e-48f4-aa45-36b81fac9ac8")
 	)
 	(wire
 		(pts
@@ -6004,7 +5815,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 181.61 66.04)
+			(xy 152.4 66.04) (xy 181.61 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6081,16 +5892,6 @@
 			(type default)
 		)
 		(uuid "df50ed4d-a6a3-4057-a936-840bcdbfff23")
-	)
-	(wire
-		(pts
-			(xy 130.81 57.15) (xy 142.24 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df912732-7718-4433-8395-f52165186a22")
 	)
 	(wire
 		(pts
@@ -7036,6 +6837,94 @@
 			(justify left)
 		)
 		(uuid "f76220d3-1a0a-470a-a643-590787b186f8")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 161.29 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2047be21-84b9-4a3b-8d5d-e3993d25870d")
+		(property "Netclass" "50_ohm"
+			(at 158.496 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 124.46 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bbaf15f-83fe-4dd4-85b8-f0e4e0914ba4")
+		(property "Netclass" "50_ohm"
+			(at 127.254 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 139.7 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be263a2c-c5b2-4199-8d48-dec3897f7163")
+		(property "Netclass" "50_ohm"
+			(at 136.906 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 156.21 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e828d408-bbbd-4c73-b657-6ee8d1a2f2f4")
+		(property "Netclass" "50_ohm"
+			(at 159.004 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "easyeda2kicad:0603WAF4701T5E")
@@ -8053,73 +7942,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 134.62 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20c21194-af73-4f1c-bc63-23fcfcf8edf3")
-		(property "Reference" "TP4"
-			(at 132.842 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 137.16 52.5779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 139.7 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 134.62 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60cab80d-40f9-49f0-b1bb-66652958cc35")
-		)
-		(instances
-			(project "stm32"
-				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a/8c3def2f-5472-4ea2-874f-344fbccc06d4"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SAMC21_breakout-rescue:+3V3-power")
 		(at 267.97 97.79 0)
 		(unit 1)
@@ -8730,82 +8552,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:0603WAF0000T5E")
-		(at 147.32 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a3d32d0-2660-4c96-9c43-cb4462ad3372")
-		(property "Reference" "R26"
-			(at 147.32 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0603WAF0000T5E"
-			(at 147.32 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C21189.html"
-			(at 147.32 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0R"
-			(at 147.32 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C21189"
-			(at 147.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f32717f2-d78a-4ad8-bd77-0981ace03d04")
-		)
-		(pin "1"
-			(uuid "5c6ab0bc-1b83-4139-86ef-497cb56379ee")
-		)
-		(instances
-			(project "stm32"
-				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a/8c3def2f-5472-4ea2-874f-344fbccc06d4"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:CL10A105KB8NNNC")
 		(at 59.69 33.02 270)
 		(unit 1)
@@ -9216,73 +8962,6 @@
 			(project "stm32"
 				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a/8c3def2f-5472-4ea2-874f-344fbccc06d4"
 					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 130.81 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "612ecdb5-9a76-4251-9766-261ccc9bf50b")
-		(property "Reference" "TP3"
-			(at 128.778 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 133.35 55.1179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 135.89 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 130.81 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81c000d0-1afc-4e77-8467-0f7440f42b11")
-		)
-		(instances
-			(project "stm32"
-				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a/8c3def2f-5472-4ea2-874f-344fbccc06d4"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11663,82 +11342,6 @@
 			(project ""
 				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a/8c3def2f-5472-4ea2-874f-344fbccc06d4"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:0603WAF0000T5E")
-		(at 147.32 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0b9c16b-b39f-4f48-adb6-5c9c55f56520")
-		(property "Reference" "R27"
-			(at 147.32 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0603WAF0000T5E"
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 147.32 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C21189.html"
-			(at 147.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0R"
-			(at 147.32 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C21189"
-			(at 147.32 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cfae1289-03ee-4c5c-aae5-ce378508b7ad")
-		)
-		(pin "1"
-			(uuid "9204d832-d8ad-40a1-a855-8f806da36ac7")
-		)
-		(instances
-			(project "stm32"
-				(path "/6657db5f-e034-448d-bae3-f44b9f033a3a/8c3def2f-5472-4ea2-874f-344fbccc06d4"
-					(reference "R27")
 					(unit 1)
 				)
 			)
