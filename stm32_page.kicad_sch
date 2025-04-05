@@ -6728,7 +6728,7 @@
 		)
 		(uuid "522c0619-b69b-4d26-affc-3d57630109d3")
 	)
-	(hierarchical_label "RGB_LEDS_R"
+	(hierarchical_label "RGB_LEDS"
 		(shape output)
 		(at 290.83 71.12 0)
 		(effects
@@ -11577,7 +11577,8 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:0603WAF1002T5E")
-		(at 26.67 102.87 90)
+		(at 26.67 102.87 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11585,7 +11586,7 @@
 		(dnp no)
 		(uuid "e59010e7-20fb-459a-a820-732d9d77b889")
 		(property "Reference" "R21"
-			(at 29.21 101.5999 90)
+			(at 24.13 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11594,7 +11595,7 @@
 			)
 		)
 		(property "Value" "0603WAF1002T5E"
-			(at 29.21 104.1399 90)
+			(at 24.13 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11604,7 +11605,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
-			(at 34.29 102.87 0)
+			(at 19.05 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,7 +11614,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 36.83 102.87 0)
+			(at 16.51 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,7 +11623,7 @@
 			)
 		)
 		(property "Description" "10k"
-			(at 24.638 102.87 0)
+			(at 28.702 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11630,7 +11631,7 @@
 			)
 		)
 		(property "LCSC Part" "C25804"
-			(at 39.37 102.87 0)
+			(at 13.97 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

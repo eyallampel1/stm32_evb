@@ -493,16 +493,6 @@
 				(justify right)
 			)
 		)
-		(pin "RGB_LEDS_R" output
-			(at 157.48 43.18 0)
-			(uuid "42d6509b-a5bc-49c6-b1e3-fbaa3bf94e52")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SD_CD" input
 			(at 157.48 59.69 0)
 			(uuid "cd14a69c-e78c-4026-ab68-0df8cebd8599")
@@ -571,6 +561,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RGB_LEDS" output
+			(at 157.48 43.18 0)
+			(uuid "8b3c59d5-f4be-4226-9e9e-e9bacdce57ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
