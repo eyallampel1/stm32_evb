@@ -566,7 +566,7 @@
         "microvia_drill": 0.1,
         "name": "50_ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.34925,
         "via_diameter": 0.508,
@@ -580,7 +580,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "via_diameter": 0.635,
@@ -594,7 +594,7 @@
         "microvia_drill": 0.1,
         "name": "pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.508,
@@ -608,11 +608,25 @@
         "microvia_drill": 0.1,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "via_diameter": 0.635,
         "via_drill": 0.3048
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "spi",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.34925,
+        "via_diameter": 0.508,
+        "via_drill": 0.254
       }
     ],
     "meta": {
@@ -663,7 +677,20 @@
         "50_ohm"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "spi",
+        "pattern": "/stm32_page/SPI1_MOSI"
+      },
+      {
+        "netclass": "spi",
+        "pattern": "/stm32_page/SPI1_SCK"
+      },
+      {
+        "netclass": "spi",
+        "pattern": "/stm32_page/SPI1_MISO"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
